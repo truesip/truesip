@@ -107,6 +107,19 @@ img {
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--primary);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.logo:hover {
+  text-decoration: none;
+}
+
+.logo-img {
+  height: 40px;
+  width: auto;
 }
 
 .nav-links a {
