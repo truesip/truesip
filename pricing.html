@@ -33,7 +33,8 @@
         <div class="container">
           <h1>Pricing & Rate Search</h1>
           <p class="lead">
-            Look up rates for voice termination, DIDs, toll-free, SMS (P2P & A2P), and forwarding by country.
+            Look up rates by country across outbound voice termination, inbound voice (DIDs / toll-free / forwarding),
+            SMS (P2P & A2P), and related services.
           </p>
         </div>
       </section>
@@ -86,7 +87,7 @@
       const datasets = [
         {
           key: "voice",
-          title: "Voice Termination",
+          title: "Outbound Voice Termination",
           file: "assets/rates/Customer_TierTerminationRates1_1_FRM.csv",
           columns: ["Country", "Destination", "Prefix", "Rate (USD)", "Effective Date"],
           map: (row) => ({
@@ -99,7 +100,7 @@
         },
         {
           key: "dids",
-          title: "Local & Toll-Free DIDs",
+          title: "Inbound Voice (Local & Toll-Free DIDs)",
           file: "assets/rates/didww_did_and_toll_free_price_list.csv",
           columns: ["Country", "City", "Prefix", "Included channels", "Setup price", "Monthly price"],
           hasHeader: true,
@@ -114,7 +115,7 @@
         },
         {
           key: "tollfreeShared",
-          title: "Toll-Free & Shared Cost (Metered)",
+          title: "Inbound Voice – Toll-Free & Shared-Cost (Metered)",
           file: "assets/rates/didww_toll_free_shared_cost_metered_traffic_rates.csv",
           hasHeader: true,
           columns: ["Country", "Source type", "Destination", "Rate (USD)", "Connect Fee", "Initial", "Next", "Reject"],
@@ -131,7 +132,7 @@
         },
         {
           key: "pstnForward",
-          title: "PSTN Call Forwarding & Phone Systems Termination",
+          title: "Inbound Voice – PSTN Call Forwarding / Phone Systems Termination",
           file: "assets/rates/didww_pstn_call_forwarding_and_phone_systems_termination_rates.csv",
           hasHeader: true,
           columns: ["Country", "Network", "Prefix", "Tag", "Rate (USD)", "Connect Fee", "Initial", "Next", "Reject"],
