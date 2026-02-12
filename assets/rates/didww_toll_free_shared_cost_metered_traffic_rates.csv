@@ -1,0 +1,351 @@
+Country, Source type, Destination, Cost Rate (USD), Cost Connect Fee (USD), Initial Interval, Next Interval, Reject Calls
+Anguilla, Mobile, 1264, 0.065, 0.000, 60, 60, false
+Anguilla, Fixed, 1264, 0.065, 0.000, 60, 60, false
+Antigua and Barbuda, Mobile, 1268, 0.065, 0.000, 60, 60, false
+Antigua and Barbuda, Fixed, 1268, 0.065, 0.000, 60, 60, false
+Argentina, Fixed, 54810, 0.125, 0.000, 60, 60, false
+Argentina, Fixed, -, 0.190, 0.000, 60, 60, false
+Argentina, Mobile, 54810, 0.125, 0.000, 60, 60, false
+Argentina, Mobile, -, 0.190, 0.000, 60, 60, false
+Australia, Mobile, 611800, 0.060, 0.000, 60, 60, false
+Australia, Mobile, 611300, 0.050, 0.000, 60, 60, false
+Australia, Fixed, 611800, 0.060, 0.000, 60, 60, false
+Australia, Fixed, 611300, 0.050, 0.000, 60, 60, false
+Austria, Fixed, -, 0.105, 0.000, 60, 60, false
+Austria, Mobile, -, 0.295, 0.000, 60, 60, false
+Bahamas, Fixed, 1242, 0.065, 0.000, 60, 60, false
+Bahamas, Mobile, 1242, 0.065, 0.000, 60, 60, false
+Barbados, Fixed, 1246, 0.065, 0.000, 60, 60, false
+Barbados, Mobile, 1246, 0.065, 0.000, 60, 60, false
+Belarus, Mobile, 375820, 0.420, 0.000, 60, 60, false
+Belarus, Mobile, 375882, 0.420, 0.000, 60, 60, false
+Belarus, Fixed, 375820, 0.420, 0.000, 60, 60, false
+Belarus, Fixed, 375882, 0.420, 0.000, 60, 60, false
+Belgium, Fixed, 32800, 0.105, 0.000, 60, 60, false
+Belgium, Mobile, 32800, 0.460, 0.000, 60, 60, false
+Benin, Fixed, 22961, 0.100, 0.000, 60, 60, false
+Benin, Mobile, 22961, 0.100, 0.000, 60, 60, false
+Bolivia, Mobile, -, 0.245, 0.000, 60, 60, false
+Bolivia, Fixed, 5915, 0.070, 0.000, 60, 60, false
+Bolivia, Fixed, -, 0.245, 0.000, 60, 60, false
+Bolivia, Mobile, 5915, 0.070, 0.000, 60, 60, false
+Bosnia and Herzegovina, Mobile, 38770, 0.040, 0.000, 60, 60, false
+Bosnia and Herzegovina, Fixed, 387800, 0.250, 0.000, 60, 60, false
+Bosnia and Herzegovina, Fixed, 38770, 0.040, 0.000, 60, 60, false
+Bosnia and Herzegovina, Mobile, 387800, 0.250, 0.000, 60, 60, false
+Brazil, Fixed, 554003, 0.110, 0.000, 60, 60, false
+Brazil, Mobile, 554003, 0.110, 0.000, 60, 60, false
+Brazil, Mobile, -, 0.280, 0.000, 60, 60, false
+Brazil, Fixed, -, 0.140, 0.000, 60, 60, false
+British Virgin Islands, Mobile, 1284, 0.065, 0.000, 60, 60, false
+British Virgin Islands, Fixed, 1284, 0.065, 0.000, 60, 60, false
+Bulgaria, Fixed, -, 0.075, 0.000, 60, 60, false
+Bulgaria, Mobile, -, 0.175, 0.000, 60, 60, false
+Canada, Fixed, -, 0.030, 0.000, 60, 60, false
+Canada, Mobile, -, 0.030, 0.000, 60, 60, false
+Cayman Islands, Fixed, 1345, 0.065, 0.000, 60, 60, false
+Cayman Islands, Mobile, 1345, 0.065, 0.000, 60, 60, false
+Chile, Fixed, 56600, 0.095, 0.000, 60, 60, false
+Chile, Fixed, -, 0.095, 0.000, 60, 60, false
+Chile, Mobile, -, 0.095, 0.000, 60, 60, false
+Chile, Mobile, 56600, 0.095, 0.000, 60, 60, false
+China, Mobile, -, 0.160, 0.000, 60, 60, false
+China, Mobile, 864008, 0.255, 0.000, 60, 60, false
+China, Fixed, 864008, 0.255, 0.000, 60, 60, false
+China, Fixed, -, 0.160, 0.000, 60, 60, false
+Colombia, Fixed, -, 0.185, 0.000, 60, 60, false
+Colombia, Mobile, -, 0.185, 0.000, 60, 60, false
+Costa Rica, Fixed, -, 0.045, 0.000, 60, 60, false
+Costa Rica, Mobile, -, 0.085, 0.000, 60, 60, false
+Costa Rica, Unknown, -, 0.085, 0.000, 60, 60, false
+Croatia, Mobile, -, 0.250, 0.000, 60, 60, false
+Croatia, Payphone, -, 0.065, 0.000, 60, 60, false
+Croatia, Fixed, -, 0.065, 0.000, 60, 60, false
+Curacao, Mobile, 599, 0.065, 0.000, 60, 60, false
+Curacao, Fixed, 599, 0.065, 0.000, 60, 60, false
+Cyprus, Fixed, -, 0.043, 0.000, 60, 60, false
+Cyprus, Mobile, -, 0.057, 0.000, 60, 60, false
+Czech Republic, Mobile, -, 0.210, 0.000, 60, 60, false
+Czech Republic, Payphone, -, 0.065, 0.000, 60, 60, false
+Czech Republic, Fixed, -, 0.065, 0.000, 60, 60, false
+Denmark, Fixed, -, 0.035, 0.000, 60, 60, false
+Denmark, Payphone, -, 0.320, 0.000, 60, 60, false
+Denmark, Mobile, -, 0.250, 0.000, 60, 60, false
+Dominica, Fixed, 1767, 0.065, 0.000, 60, 60, false
+Dominica, Mobile, 1767, 0.065, 0.000, 60, 60, false
+Dominican Republic, Mobile, 1849200, 0.110, 0.000, 60, 60, false
+Dominican Republic, Fixed, 1849200, 0.110, 0.000, 60, 60, false
+Dominican Republic, Mobile, 1809200, 0.110, 0.000, 60, 60, false
+Dominican Republic, Fixed, 1829200, 0.110, 0.000, 60, 60, false
+Dominican Republic, Mobile, 1829200, 0.110, 0.000, 60, 60, false
+Dominican Republic, Fixed, 1809200, 0.110, 0.000, 60, 60, false
+Ecuador, Fixed, -, 0.310, 0.000, 60, 60, false
+Ecuador, Mobile, -, 0.310, 0.000, 60, 60, false
+Estonia, Mobile, -, 0.530, 0.000, 60, 60, false
+Estonia, Fixed, -, 0.060, 0.000, 60, 60, false
+Finland, Fixed, -, 0.115, 0.000, 60, 60, false
+Finland, Mobile, -, 0.180, 0.000, 60, 60, false
+France, Fixed, 33805, 0.060, 0.000, 60, 60, false
+France, Fixed, 33800, 0.060, 0.000, 60, 60, false
+France, Mobile, 33805, 0.060, 0.000, 60, 60, false
+France, Mobile, 33800, 0.060, 0.000, 60, 60, false
+Georgia, Mobile, -, 0.125, 0.000, 60, 60, false
+Georgia, Fixed, -, 0.075, 0.000, 60, 60, false
+Germany, Mobile, -, 0.175, 0.000, 60, 60, false
+Germany, Fixed, 4932, 0.040, 0.000, 60, 60, false
+Germany, Mobile, 4932, 0.040, 0.000, 60, 60, false
+Germany, Fixed, -, 0.045, 0.000, 60, 60, false
+Ghana, Mobile, 23324, 0.100, 0.000, 60, 60, false
+Ghana, Mobile, 23359, 0.100, 0.000, 60, 60, false
+Ghana, Fixed, 23359, 0.100, 0.000, 60, 60, false
+Ghana, Fixed, 23324, 0.100, 0.000, 60, 60, false
+Global, Germany fixed, 800, 0.070, 0.000, 60, 60, false
+Global, Singapore fixed, 800, 0.070, 0.000, 60, 60, false
+Global, Brazil fixed, 800, 0.098, 0.000, 60, 60, false
+Global, Australia fixed, 800, 0.070, 0.000, 60, 60, false
+Global, Greece fixed, 800, 0.084, 0.000, 60, 60, false
+Global, Czech Republic fixed, 800, 0.070, 0.000, 60, 60, false
+Global, Hong Kong fixed, 800, 0.070, 0.000, 60, 60, false
+Global, Macedonia mobile, 800, 0.490, 0.000, 60, 60, false
+Global, Belgium mobile, 800, 0.280, 0.020, 60, 60, false
+Global, Iceland fixed, 800, 0.084, 0.000, 60, 60, false
+Global, Latvia fixed, 800, 0.221, 0.000, 60, 60, false
+Global, Switzerland mobile, 800, 0.084, 0.030, 60, 60, false
+Global, New Zealand fixed, 800, 0.140, 0.000, 60, 60, false
+Global, Sweden mobile, 800, 0.196, 0.000, 60, 60, false
+Global, Portugal fixed, 800, 0.110, 0.030, 60, 60, false
+Global, French Guiana fixed, 800, 0.168, 0.000, 60, 60, false
+Global, Thailand fixed, 800, 0.238, 0.000, 60, 60, false
+Global, Ireland fixed, 800, 0.105, 0.000, 60, 60, false
+Global, Poland fixed, 800, 0.126, 0.000, 60, 60, false
+Global, Philippines fixed, 800, 0.280, 0.000, 60, 60, false
+Global, Brazil mobile, 800, 0.210, 0.000, 60, 60, false
+Global, Reunion fixed, 800, 0.168, 0.000, 60, 60, false
+Global, Peru fixed, 800, 0.238, 0.000, 60, 60, false
+Global, Denmark mobile, 800, 0.308, 0.000, 60, 60, false
+Global, South Africa fixed, 800, 0.154, 0.000, 60, 60, false
+Global, France mobile, 800, 0.150, 0.000, 60, 60, false
+Global, Denmark payphone, 800, 0.308, 0.000, 60, 60, false
+Global, Luxembourg mobile, 800, 0.350, 0.000, 60, 60, false
+Global, Colombia fixed, 800, 0.112, 0.000, 60, 60, false
+Global, Spain fixed, 800, 0.070, 0.000, 60, 60, false
+Global, Germany mobile, 800, 0.180, 0.000, 60, 60, false
+Global, Slovenia fixed, 800, 0.245, 0.000, 60, 60, false
+Global, Ireland payphone, 800, 0.420, 0.000, 60, 60, false
+Global, Cyprus fixed, 800, 0.112, 0.000, 60, 60, false
+Global, Romania fixed, 800, 0.100, 0.000, 60, 60, false
+Global, Greece mobile, 800, 0.280, 0.000, 60, 60, false
+Global, Lithuania fixed, 800, 0.140, 0.000, 60, 60, false
+Global, Malta fixed, 800, 0.112, 0.000, 60, 60, false
+Global, Slovakia fixed, 800, 0.105, 0.000, 60, 60, false
+Global, Belgium fixed, 800, 0.056, 0.030, 60, 60, false
+Global, Uruguay fixed, 800, 0.168, 0.000, 60, 60, false
+Global, Slovakia mobile, 800, 0.322, 0.000, 60, 60, false
+Global, United Kingdom fixed, 800, 0.400, 0.000, 60, 60, false
+Global, Estonia mobile, 800, 0.448, 0.000, 60, 60, false
+Global, Martinique fixed, 800, 0.168, 0.000, 60, 60, false
+Global, Finland fixed, 800, 0.196, 0.000, 60, 60, false
+Global, Romania mobile, 800, 0.140, 0.000, 60, 60, false
+Global, Bulgaria fixed, 800, 0.140, 0.000, 60, 60, false
+Global, Sweden fixed, 800, 0.070, 0.000, 60, 60, false
+Global, USA fixed, 800, 0.091, 0.000, 60, 60, false
+Global, Denmark fixed, 800, 0.070, 0.000, 60, 60, false
+Global, Belarus mobile, 800, 0.434, 0.000, 60, 60, false
+Global, Monaco fixed, 800, 0.056, 0.000, 60, 60, false
+Global, Costa Rica fixed, 800, 0.224, 0.000, 60, 60, false
+Global, Macedonia fixed, 800, 0.224, 0.000, 60, 60, false
+Global, New Zealand mobile, 800, 0.210, 0.000, 60, 60, false
+Global, Norway fixed, 800, 0.140, 0.000, 60, 60, false
+Global, Argentina fixed, 800, 0.160, 0.000, 60, 60, false
+Global, Taiwan fixed, 800, 0.084, 0.000, 60, 60, false
+Global, Mayotte fixed, 800, 0.168, 0.000, 60, 60, false
+Global, Croatia fixed, 800, 0.196, 0.000, 60, 60, false
+Global, Saint Pierre And Miquelon fixed, 800, 0.238, 0.000, 60, 60, false
+Global, Italy fixed, 800, 0.110, 0.000, 60, 60, false
+Global, Malaysia fixed, 800, 0.112, 0.000, 60, 60, false
+Global, Austria fixed, 800, 0.084, 0.000, 60, 60, false
+Global, Czech Republic mobile, 800, 0.210, 0.000, 60, 60, false
+Global, South Korea fixed, 800, 0.112, 0.000, 60, 60, false
+Global, Ireland mobile, 800, 0.665, 0.000, 60, 60, false
+Global, Israel fixed, 800, 0.170, 0.000, 60, 60, false
+Global, Austria mobile, 800, 0.196, 0.000, 60, 60, false
+Global, Netherlands payphone, 800, 0.280, 0.000, 60, 60, false
+Global, Estonia fixed, 800, 0.070, 0.000, 60, 60, false
+Global, Macao fixed, 800, 0.350, 0.000, 60, 60, false
+Global, Luxembourg fixed, 800, 0.056, 0.000, 60, 60, false
+Global, Taiwan mobile, 800, 0.238, 0.000, 60, 60, false
+Global, Spain mobile, 800, 0.150, 0.000, 60, 60, false
+Global, Netherlands fixed, 800, 0.070, 0.000, 60, 60, false
+Global, Germany payphone, 800, 0.420, 0.000, 60, 60, false
+Global, Canada fixed, 800, 0.070, 0.000, 60, 60, false
+Global, Guadeloupe fixed, 800, 0.168, 0.000, 60, 60, false
+Global, Portugal mobile, 800, 0.300, 0.000, 60, 60, false
+Global, Japan fixed, 800, 0.448, 0.000, 60, 60, false
+Global, Hungary mobile, 800, 0.154, 0.000, 60, 60, false
+Global, Hungary fixed, 800, 0.056, 0.000, 60, 60, false
+Global, China fixed, 800, 0.308, 0.000, 60, 60, false
+Global, France fixed, 800, 0.090, 0.000, 60, 60, false
+Global, Switzerland fixed, 800, 0.049, 0.045, 60, 60, false
+Greece, Mobile, 30800, 0.250, 0.000, 60, 60, false
+Greece, Fixed, 30800, 0.050, 0.000, 60, 60, false
+Grenada, Fixed, 1473, 0.065, 0.000, 60, 60, false
+Grenada, Mobile, 1473, 0.065, 0.000, 60, 60, false
+Hong Kong, Fixed, -, 0.050, 0.000, 60, 60, false
+Hong Kong, Mobile, -, 0.050, 0.000, 60, 60, false
+Hungary, Fixed, 3680, 0.050, 0.000, 60, 60, false
+Hungary, Mobile, 3680, 0.110, 0.000, 60, 60, false
+Iceland, Fixed, 354800, 0.130, 0.000, 60, 60, false
+Iceland, Mobile, 354800, 0.130, 0.000, 60, 60, false
+India, Mobile, 91124, 0.105, 0.000, 60, 60, false
+India, Fixed, 91800, 0.175, 0.000, 60, 60, false
+India, Mobile, 91141, 0.105, 0.000, 60, 60, false
+India, Fixed, 9111, 0.105, 0.000, 60, 60, false
+India, Mobile, 9122, 0.105, 0.000, 60, 60, false
+India, Fixed, 91141, 0.105, 0.000, 60, 60, false
+India, Fixed, 9133, 0.105, 0.000, 60, 60, false
+India, Mobile, 9179, 0.105, 0.000, 60, 60, false
+India, Fixed, 91120, 0.105, 0.000, 60, 60, false
+India, Fixed, 9122, 0.105, 0.000, 60, 60, false
+India, Fixed, 9180, 0.105, 0.000, 60, 60, false
+India, Mobile, 91120, 0.105, 0.000, 60, 60, false
+India, Mobile, 9140, 0.105, 0.000, 60, 60, false
+India, Mobile, 9111, 0.105, 0.000, 60, 60, false
+India, Fixed, 9144, 0.105, 0.000, 60, 60, false
+India, Mobile, 9144, 0.105, 0.000, 60, 60, false
+India, Mobile, 9133, 0.105, 0.000, 60, 60, false
+India, Mobile, 91800, 0.175, 0.000, 60, 60, false
+India, Fixed, 9179, 0.105, 0.000, 60, 60, false
+India, Fixed, 91124, 0.105, 0.000, 60, 60, false
+India, Fixed, 9140, 0.105, 0.000, 60, 60, false
+India, Mobile, 9180, 0.105, 0.000, 60, 60, false
+Indonesia, Fixed, 6231, 0.080, 0.000, 60, 60, false
+Indonesia, Mobile, 6231, 0.080, 0.000, 60, 60, false
+Indonesia, Mobile, 6261, 0.080, 0.000, 60, 60, false
+Indonesia, Fixed, 6224, 0.080, 0.000, 60, 60, false
+Indonesia, Mobile, 6224, 0.080, 0.000, 60, 60, false
+Indonesia, Fixed, 6261, 0.080, 0.000, 60, 60, false
+Indonesia, Fixed, -, 0.300, 0.000, 60, 60, false
+Indonesia, Mobile, 6221, 0.080, 0.000, 60, 60, false
+Indonesia, Mobile, -, 0.300, 0.000, 60, 60, false
+Indonesia, Fixed, 6221, 0.080, 0.000, 60, 60, false
+Ireland, Fixed, -, 0.050, 0.000, 60, 60, false
+Ireland, Mobile, -, 0.580, 0.000, 60, 60, false
+Israel, Mobile, -, 0.060, 0.000, 60, 60, false
+Israel, Payphone, -, 0.060, 0.000, 60, 60, false
+Israel, Fixed, -, 0.060, 0.000, 60, 60, false
+Italy, Mobile, -, 0.380, 0.000, 60, 60, false
+Italy, Fixed, -, 0.041, 0.000, 60, 60, false
+Italy, Payphone, -, 0.290, 0.000, 60, 60, false
+Jamaica, Mobile, 1876, 0.065, 0.000, 60, 60, false
+Jamaica, Fixed, -, 0.065, 0.000, 60, 60, false
+Jamaica, Fixed, 1876, 0.065, 0.000, 60, 60, false
+Jamaica, Mobile, -, 0.065, 0.000, 60, 60, false
+Japan, Mobile, -, 0.300, 0.000, 60, 60, false
+Japan, Fixed, -, 0.125, 0.000, 60, 60, false
+Kenya, Fixed, 254800, 0.120, 0.000, 60, 60, false
+Kenya, Mobile, 254800, 0.120, 0.000, 60, 60, false
+Kosovo, Fixed, 38338, 0.105, 0.000, 60, 60, false
+Kosovo, Mobile, 38338, 0.105, 0.000, 60, 60, false
+Latvia, Unknown, 371800, 0.175, 0.000, 60, 60, false
+Latvia, Fixed, 371800, 0.175, 0.000, 60, 60, false
+Latvia, Mobile, 371800, 0.175, 0.000, 60, 60, false
+Lithuania, Fixed, -, 0.060, 0.000, 60, 60, false
+Lithuania, Mobile, -, 0.070, 0.000, 60, 60, false
+Luxembourg, Payphone, -, 0.310, 0.000, 60, 60, false
+Luxembourg, Fixed, -, 0.052, 0.000, 60, 60, false
+Luxembourg, Mobile, -, 0.195, 0.000, 60, 60, false
+Malaysia, Mobile, 603, 0.075, 0.000, 60, 60, false
+Malaysia, Mobile, 601800, 0.150, 0.000, 60, 60, false
+Malaysia, Fixed, 603, 0.075, 0.000, 60, 60, false
+Malaysia, Fixed, 601800, 0.150, 0.000, 60, 60, false
+Mexico, Payphone, -, 0.075, 0.000, 60, 60, false
+Mexico, Fixed, -, 0.075, 0.000, 60, 60, false
+Mexico, Mobile, -, 0.075, 0.000, 60, 60, false
+Moldova, Mobile, 373800, 0.430, 0.000, 60, 60, false
+Moldova, Fixed, 373800, 0.430, 0.000, 60, 60, false
+Monaco, Mobile, 377800, 0.110, 0.000, 60, 60, false
+Monaco, Fixed, 377800, 0.110, 0.000, 60, 60, false
+Montenegro, Fixed, 382808, 0.110, 0.000, 60, 60, false
+Montenegro, Mobile, 382808, 0.180, 0.000, 60, 60, false
+Netherlands, Mobile, -, 0.305, 0.000, 60, 60, false
+Netherlands, Fixed, -, 0.075, 0.000, 60, 60, false
+Netherlands, Payphone, -, 0.305, 0.000, 60, 60, false
+New Zealand, Mobile, -, 0.180, 0.000, 60, 60, false
+New Zealand, Fixed, -, 0.060, 0.000, 60, 60, false
+North Macedonia, Fixed, 38925, 0.325, 0.000, 60, 60, false
+North Macedonia, Mobile, 38925, 0.325, 0.000, 60, 60, false
+Norway, Payphone, -, 0.045, 0.000, 60, 60, false
+Norway, Mobile, -, 0.045, 0.000, 60, 60, false
+Norway, Fixed, -, 0.045, 0.000, 60, 60, false
+Panama, Fixed, -, 0.049, 0.000, 60, 60, false
+Panama, Payphone, -, 0.049, 0.000, 60, 60, false
+Panama, Mobile, -, 0.049, 0.000, 60, 60, false
+Paraguay, Mobile, 59521, 0.300, 0.000, 60, 60, false
+Paraguay, Fixed, 59521, 0.300, 0.000, 60, 60, false
+Peru, Fixed, 51801, 0.175, 0.000, 60, 60, false
+Peru, Payphone, -, 0.175, 0.000, 60, 60, false
+Peru, Fixed, -, 0.175, 0.000, 60, 60, false
+Peru, Mobile, 51801, 0.175, 0.000, 60, 60, false
+Peru, Mobile, -, 0.175, 0.000, 60, 60, false
+Philippines, Fixed, 63, 0.220, 0.000, 60, 60, false
+Philippines, Mobile, 63, 0.220, 0.000, 60, 60, false
+Poland, Mobile, -, 0.110, 0.000, 60, 60, false
+Poland, Fixed, -, 0.064, 0.000, 60, 60, false
+Portugal, Payphone, -, 0.055, 0.000, 60, 60, false
+Portugal, Mobile, -, 0.245, 0.000, 60, 60, false
+Portugal, Fixed, -, 0.055, 0.000, 60, 60, false
+Romania, Payphone, -, 0.145, 0.000, 60, 60, false
+Romania, Mobile, -, 0.165, 0.000, 60, 60, false
+Romania, Fixed, -, 0.075, 0.000, 60, 60, false
+Saint Martin, Fixed, 590, 0.065, 0.000, 60, 60, false
+Saint Martin, Mobile, 590, 0.065, 0.000, 60, 60, false
+Saudi Arabia, Mobile, 966800, 0.240, 0.000, 60, 60, false
+Saudi Arabia, Fixed, 966800, 0.240, 0.000, 60, 60, false
+Serbia, Mobile, -, 0.180, 0.000, 60, 60, false
+Serbia, Fixed, -, 0.110, 0.000, 60, 60, false
+Singapore, Fixed, -, 0.110, 0.000, 60, 60, false
+Singapore, Mobile, -, 0.110, 0.000, 60, 60, false
+Slovakia, Mobile, -, 0.185, 0.000, 60, 60, false
+Slovakia, Fixed, -, 0.095, 0.000, 60, 60, false
+Slovenia, Fixed, 38680, 0.110, 0.000, 60, 60, false
+Slovenia, Mobile, 38680, 0.150, 0.000, 60, 60, false
+South Africa, Mobile, 27800, 0.080, 0.000, 60, 60, false
+South Africa, Fixed, 27800, 0.080, 0.000, 60, 60, false
+South Korea, Fixed, 82308, 0.085, 0.000, 60, 60, false
+South Korea, Mobile, 82308, 0.085, 0.000, 60, 60, false
+Spain, Fixed, -, 0.035, 0.000, 60, 60, false
+Spain, Mobile, -, 0.420, 0.000, 60, 60, false
+Sweden, Mobile, -, 0.140, 0.000, 60, 60, false
+Sweden, Fixed, -, 0.060, 0.000, 60, 60, false
+Sweden, Fixed, 4677, 0.000, 0.000, 60, 60, false
+Sweden, Mobile, 4677, 0.000, 0.000, 60, 60, false
+Switzerland, Mobile, 41800, 0.240, 0.000, 60, 60, false
+Switzerland, Fixed, 41800, 0.125, 0.000, 60, 60, false
+Taiwan, Mobile, 886801, 0.250, 0.000, 60, 60, false
+Taiwan, Fixed, 886801, 0.180, 0.000, 60, 60, false
+Thailand, Fixed, 661800, 0.240, 0.000, 60, 60, false
+Thailand, Mobile, 661800, 0.240, 0.000, 60, 60, false
+Trinidad and Tobago, Fixed, 1868, 0.065, 0.000, 60, 60, false
+Trinidad and Tobago, Mobile, 1868, 0.065, 0.000, 60, 60, false
+Uganda, Fixed, 256800, 0.095, 0.000, 60, 60, false
+Uganda, Mobile, 256800, 0.095, 0.000, 60, 60, false
+Ukraine, Fixed, -, 0.300, 0.000, 60, 60, false
+Ukraine, Mobile, -, 0.300, 0.000, 60, 60, false
+United Arab Emirates, Fixed, -, 0.390, 0.000, 60, 60, false
+United Arab Emirates, Mobile, -, 0.390, 0.000, 60, 60, false
+United Kingdom, Fixed, -, 0.049, 0.000, 60, 60, false
+United Kingdom, Mobile, -, 0.060, 0.000, 60, 60, false
+United States, Fixed, -, 0.029, 0.000, 60, 60, false
+United States, Mobile, 1907, 0.045, 0.000, 60, 60, false
+United States, Fixed, 1808, 0.025, 0.000, 60, 60, false
+United States, Fixed, 1907, 0.045, 0.000, 60, 60, false
+United States, Mobile, 1808, 0.025, 0.000, 60, 60, false
+United States, Mobile, -, 0.029, 0.000, 60, 60, false
+Uruguay, Fixed, -, 0.225, 0.000, 60, 60, false
+Uruguay, Mobile, -, 0.225, 0.000, 60, 60, false
+Venezuela, Fixed, -, 0.065, 0.000, 60, 60, false
+Venezuela, Mobile, -, 0.075, 0.000, 60, 60, false
+Vietnam, Fixed, 84, 0.100, 0.000, 60, 60, false
+Vietnam, Mobile, 841800, 0.075, 0.000, 60, 60, false
+Vietnam, Mobile, 84, 0.100, 0.000, 60, 60, false
+Vietnam, Fixed, 841800, 0.065, 0.000, 60, 60, false
