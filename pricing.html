@@ -6,7 +6,7 @@
     <title>Pricing | TRUESIP USA LLC</title>
     <meta
       name="description"
-      content="Search TRUESIP USA LLC pricing for global voice termination, DIDs, toll-free, SMS, and forwarding."
+      content="Starting rates for DIDs, SMS, eSIM data, and call forwarding from TRUESIP USA LLC."
     />
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
@@ -31,33 +31,64 @@
     <main>
       <section class="page-header">
         <div class="container">
-          <h1>Pricing & Rate Search</h1>
+          <h1>Pricing</h1>
           <p class="lead">
-            Look up rates by country across outbound voice termination, inbound voice (DIDs / toll-free / forwarding),
-            SMS (P2P & A2P), and related services.
+            Clear, starting rates for core TRUESIP services. Need destination-specific or volume pricing? Get a quote.
           </p>
         </div>
       </section>
 
       <section class="section">
-        <div class="container pricing-search">
-          <div class="search-box">
-            <label for="countryInput">Select or type a country</label>
-            <input list="countryList" id="countryInput" name="country" placeholder="e.g., Argentina" />
-            <datalist id="countryList"></datalist>
+        <div class="container">
+          <div class="section-title">
+            <h2>Starting Rates</h2>
+            <p class="section-lead">Simple, transparent pricing for the services you use most.</p>
           </div>
-          <button class="btn" id="searchBtn">Search Rates</button>
-          <p class="muted" id="statusText">Enter a country and click search to load rates.</p>
+          <div class="grid pricing-grid">
+            <article class="card price-card">
+              <h3>U.S./CA DIDs</h3>
+              <p class="price-value">$4.40</p>
+              <p class="price-note">Monthly per DID.</p>
+            </article>
+            <article class="card price-card">
+              <h3>2-Way SMS</h3>
+              <p class="price-value">$0.005</p>
+              <p class="price-note">Starting rate per message.</p>
+            </article>
+            <article class="card price-card">
+              <h3>A2P SMS</h3>
+              <p class="price-value">$0.008</p>
+              <p class="price-note">Starting rate per message.</p>
+            </article>
+            <article class="card price-card">
+              <h3>International DIDs</h3>
+              <p class="price-value">$10</p>
+              <p class="price-note">Starting monthly rate per DID.</p>
+            </article>
+            <article class="card price-card">
+              <h3>eSIM Data</h3>
+              <p class="price-value">$7 / GIB</p>
+              <p class="price-note">Starting rate per GIB.</p>
+            </article>
+            <article class="card price-card">
+              <h3>Call Forwarding</h3>
+              <p class="price-value">$0.01</p>
+              <p class="price-note">Starting rate per minute.</p>
+            </article>
+          </div>
+          <p class="muted pricing-footnote">
+            For custom routes, bulk DIDs, or high-volume messaging, request tailored pricing.
+          </p>
         </div>
       </section>
 
-      <section class="section alt" id="results" hidden>
-        <div class="container">
-          <div class="section-title">
-            <h2>Results</h2>
-            <p class="section-lead">Showing up to 100 rows per category.</p>
+      <section class="contact-strip">
+        <div class="container contact-strip-inner">
+          <div>
+            <h2>Get a Quote</h2>
+            <p>Tell us your destinations, volumes, and requirements. We'll respond quickly with pricing.</p>
           </div>
-          <div class="rates-grid" id="rateSections"></div>
+          <a class="btn btn-invert" href="contact.html">Get a Quote</a>
         </div>
       </section>
     </main>
@@ -83,204 +114,5 @@
       </div>
     </footer>
 
-    <script>
-      const datasets = [
-        {
-          key: "voice",
-          title: "Outbound Voice Termination",
-          file: "assets/rates/Customer_TierTerminationRates1_1_FRM.csv",
-          columns: ["Country", "Destination", "Prefix", "Rate (USD)", "Effective Date"],
-          map: (row) => ({
-            Country: row[0],
-            Destination: row[1],
-            Prefix: row[2],
-            "Rate (USD)": row[3],
-            "Effective Date": row[4],
-          }),
-        },
-        {
-          key: "dids",
-          title: "Inbound Voice (Local & Toll-Free DIDs)",
-          file: "assets/rates/didww_did_and_toll_free_price_list.csv",
-          columns: ["Country", "City", "Prefix", "Included channels", "Setup price", "Monthly price"],
-          hasHeader: true,
-          map: (row) => ({
-            Country: row[0],
-            City: row[1],
-            Prefix: row[2],
-            "Channels": row[3],
-            "Setup (USD)": row[4],
-            "Monthly (USD)": row[5],
-          }),
-        },
-        {
-          key: "tollfreeShared",
-          title: "Inbound Voice – Toll-Free & Shared-Cost (Metered)",
-          file: "assets/rates/didww_toll_free_shared_cost_metered_traffic_rates.csv",
-          hasHeader: true,
-          columns: ["Country", "Source type", "Destination", "Rate (USD)", "Connect Fee", "Initial", "Next", "Reject"],
-          map: (row) => ({
-            Country: row[0],
-            "Source": row[1],
-            Destination: row[2],
-            "Rate (USD)": row[3],
-            "Connect Fee": row[4],
-            "Initial (s)": row[5],
-            "Next (s)": row[6],
-            Reject: row[7],
-          }),
-        },
-        {
-          key: "pstnForward",
-          title: "Inbound Voice – PSTN Call Forwarding / Phone Systems Termination",
-          file: "assets/rates/didww_pstn_call_forwarding_and_phone_systems_termination_rates.csv",
-          hasHeader: true,
-          columns: ["Country", "Network", "Prefix", "Tag", "Rate (USD)", "Connect Fee", "Initial", "Next", "Reject"],
-          map: (row) => ({
-            Country: row[0],
-            Network: row[1],
-            Prefix: row[2],
-            Tag: row[3],
-            "Rate (USD)": row[4],
-            "Connect Fee": row[5],
-            "Initial (s)": row[6],
-            "Next (s)": row[7],
-            Reject: row[8],
-          }),
-        },
-        {
-          key: "inboundSms",
-          title: "Inbound SMS",
-          file: "assets/rates/didww_inbound_sms_rates.csv",
-          hasHeader: true,
-          columns: ["SRC Prefix", "SRC Min", "SRC Max", "DST Prefix", "Price (USD)"],
-          map: (row) => ({
-            "SRC Prefix": row[0],
-            "SRC Min": row[1],
-            "SRC Max": row[2],
-            "DST Prefix": row[3],
-            "Price (USD)": row[4],
-          }),
-        },
-        {
-          key: "smsP2P",
-          title: "Outbound SMS (P2P)",
-          file: "assets/rates/outbound_sms_p2p.csv",
-          columns: ["Country", "Prefix", "Rate (USD)"],
-          map: (row) => ({
-            Country: row[0],
-            Prefix: row[1],
-            "Rate (USD)": row[2],
-          }),
-        },
-        {
-          key: "smsA2P",
-          title: "Outbound SMS (A2P)",
-          file: "assets/rates/outbound_sms_a2p.csv",
-          columns: ["Country", "Operator", "MCC", "MNC", "Rate (USD)", "Notes"],
-          map: (row) => ({
-            Country: row[0],
-            Operator: row[1],
-            MCC: row[2],
-            MNC: row[3],
-            "Rate (USD)": row[4],
-            Notes: row[5] || "",
-          }),
-        },
-      ];
-
-      const countryInput = document.getElementById("countryInput");
-      const searchBtn = document.getElementById("searchBtn");
-      const statusText = document.getElementById("statusText");
-      const resultsSection = document.getElementById("results");
-      const rateSections = document.getElementById("rateSections");
-      const countryList = document.getElementById("countryList");
-
-      // Prefill country list from all datasets (union of Country column)
-      Promise.all(
-        datasets.map((ds) =>
-          fetch(ds.file)
-            .then((r) => r.text())
-            .then((text) => parseCSV(text, !!ds.hasHeader).map((r) => r[0]).filter(Boolean))
-            .catch(() => [])
-        )
-      ).then((lists) => {
-        const unique = [...new Set(lists.flat())].sort((a, b) => a.localeCompare(b));
-        countryList.innerHTML = unique.map((c) => `<option value="${c}"></option>`).join("");
-      });
-
-      searchBtn.addEventListener("click", () => {
-        const country = countryInput.value.trim();
-        if (!country) {
-          statusText.textContent = "Please enter a country name.";
-          resultsSection.hidden = true;
-          return;
-        }
-        statusText.textContent = "Loading rates...";
-        resultsSection.hidden = true;
-        rateSections.innerHTML = "";
-
-        Promise.all(
-          datasets.map(async (ds) => {
-            try {
-              const text = await fetch(ds.file).then((r) => r.text());
-              const rows = parseCSV(text, !!ds.hasHeader);
-              const filtered = rows.filter((r) => (r[0] || "").toLowerCase() === country.toLowerCase());
-              return { ds, rows: filtered.slice(0, 100) };
-            } catch (e) {
-              return { ds, rows: [], error: true };
-            }
-          })
-        ).then((results) => {
-          resultsSection.hidden = false;
-          rateSections.innerHTML = "";
-          const any = results.some((res) => res.rows.length > 0);
-          statusText.textContent = any
-            ? "Showing results (max 100 per category)."
-            : "No matching rows found for that country.";
-
-          results.forEach((res) => {
-            const card = document.createElement("div");
-            card.className = "rate-card";
-            card.innerHTML = `<h3>${res.ds.title}</h3>`;
-            if (res.error) {
-              card.innerHTML += `<p class="muted">Could not load this dataset.</p>`;
-            } else if (res.rows.length === 0) {
-              card.innerHTML += `<p class="muted">No rows for this country.</p>`;
-            } else {
-              card.appendChild(renderTable(res.ds, res.rows));
-            }
-            rateSections.appendChild(card);
-          });
-        });
-      });
-
-      function parseCSV(text, hasHeader = false) {
-        const lines = text.split(/\r?\n/).filter((l) => l.trim().length);
-        const rows = lines.map((line) => {
-          const re = /,(?=(?:[^"]*"[^"]*")*[^"]*$)/g;
-          return line.split(re).map((cell) => cell.replace(/^"|"$/g, ""));
-        });
-        return hasHeader ? rows.slice(1) : rows;
-      }
-
-      function renderTable(ds, rows) {
-        const table = document.createElement("table");
-        table.className = "rate-table";
-        const thead = document.createElement("thead");
-        thead.innerHTML = `<tr>${ds.columns.map((c) => `<th>${c}</th>`).join("")}</tr>`;
-        table.appendChild(thead);
-        const tbody = document.createElement("tbody");
-        rows.forEach((r) => {
-          const mapped = ds.map(r);
-          const tds = ds.columns.map((c) => `<td>${mapped[c] ?? ""}</td>`).join("");
-          const tr = document.createElement("tr");
-          tr.innerHTML = tds;
-          tbody.appendChild(tr);
-        });
-        table.appendChild(tbody);
-        return table;
-      }
-    </script>
   </body>
 </html>
