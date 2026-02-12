@@ -196,15 +196,18 @@
       const rateSections = document.getElementById("rateSections");
       const countryList = document.getElementById("countryList");
 
-      // Prefill country list from DID price list (smaller file)
-      fetch(datasets.find((d) => d.key === "dids").file)
-        .then((r) => r.text())
-        .then((text) => {
-          const rows = parseCSV(text, true);
-          const unique = [...new Set(rows.map((r) => r[0]).filter(Boolean))].sort();
-          countryList.innerHTML = unique.map((c) => `<option value="${c}"></option>`).join("");
-        })
-        .catch(() => {});
+      // Prefill country list from all datasets (union of Country column)
+      Promise.all(
+        datasets.map((ds) =>
+          fetch(ds.file)
+            .then((r) => r.text())
+            .then((text) => parseCSV(text, !!ds.hasHeader).map((r) => r[0]).filter(Boolean))
+            .catch(() => [])
+        )
+      ).then((lists) => {
+        const unique = [...new Set(lists.flat())].sort((a, b) => a.localeCompare(b));
+        countryList.innerHTML = unique.map((c) => `<option value="${c}"></option>`).join("");
+      });
 
       searchBtn.addEventListener("click", () => {
         const country = countryInput.value.trim();
@@ -253,8 +256,11 @@
       });
 
       function parseCSV(text, hasHeader = false) {
-        const lines = text.split(/\\r?\\n/).filter((l) => l.trim().length);
-        const rows = lines.map((l) => l.split(","));
+        const lines = text.split(/\r?\n/).filter((l) => l.trim().length);
+        const rows = lines.map((line) => {
+          const re = /,(?=(?:[^"]*"[^"]*")*[^"]*$)/g;
+          return line.split(re).map((cell) => cell.replace(/^"|"$/g, ""));
+        });
         return hasHeader ? rows.slice(1) : rows;
       }
 
