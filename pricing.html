@@ -164,7 +164,7 @@
         {
           key: "smsP2P",
           title: "Outbound SMS (P2P)",
-          file: "assets/rates/No Tier Outbound SMS ratelist.csv",
+          file: "assets/rates/outbound_sms_p2p.csv",
           columns: ["Country", "Prefix", "Rate (USD)"],
           map: (row) => ({
             Country: row[0],
@@ -175,7 +175,7 @@
         {
           key: "smsA2P",
           title: "Outbound SMS (A2P)",
-          file: "assets/rates/[A2P] No Tier Outbound SMS ratelist.csv",
+          file: "assets/rates/outbound_sms_a2p.csv",
           columns: ["Country", "Operator", "MCC", "MNC", "Rate (USD)", "Notes"],
           map: (row) => ({
             Country: row[0],
